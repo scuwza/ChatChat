@@ -10,8 +10,8 @@ import logging
 
 # 定义源目录和块参数
 source_directory = "/root/ChatChat/books"
-chunk_size = 1000
-chunk_overlap = 200
+chunk_size = 200
+chunk_overlap = 20
 
 logging.basicConfig(level=logging.DEBUG)
 
